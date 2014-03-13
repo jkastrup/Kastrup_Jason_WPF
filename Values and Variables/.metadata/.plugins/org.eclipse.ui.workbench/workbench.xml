@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
-<window height="812" width="1200" x="197" y="252">
+<window height="812" width="1200" x="268" y="356">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -38,11 +38,11 @@
 </editorArea>
 <editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Values and Variables/Values and Variables/index.html" title="index.html" tooltip="Values and Variables/index.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Values and Variables/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="188" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="78" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Values and Variables/Values and Variables/js/script.js" title="script.js" tooltip="Values and Variables/js/script.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Values and Variables/js/script.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="129" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="340" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.css" name="styles.css" partName="styles.css" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Values and Variables/Values and Variables/css/styles.css" title="styles.css" tooltip="Values and Variables/css/styles.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Values and Variables/css/styles.css"/>
@@ -195,6 +195,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Values and Variables/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Values and Variables/js/script.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Values and Variables/css/styles.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Values and Variables/index.html"/>
 </editors>
 <item historyLabel="ch2_examp1.htm" index="0">
 <position info="not_deleted" x="372" y="0"/>
@@ -301,8 +302,47 @@
 <item historyLabel="index.html" index="3">
 <position info="not_deleted" x="188" y="0"/>
 </item>
-<item active="true" historyLabel="script.js" index="4">
+<item historyLabel="script.js" index="4">
 <position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="171" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="187" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="237" y="0"/>
+</item>
+<item historyLabel="index.html" index="6">
+<position info="not_deleted" x="78" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="284" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="412" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item active="true" historyLabel="script.js" index="4">
+<position info="not_deleted" x="441" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

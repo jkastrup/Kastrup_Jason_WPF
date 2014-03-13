@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Expressions_Worksheet/index.html&apos;" deleteContents="false" description="Delete resource &apos;Expressions_Worksheet/index.html&apos;" element1="/Expressions_Worksheet/index.html" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1394753566381"/>
+</session>
