@@ -39,7 +39,7 @@ console.log("Each person ate " + numEat + " slices of pizza at the party.");
  */
 console.log("PROBLEM 3");
 
-var numSparky = (numPizzas * numSlices) - (Math.floor(numEat) * numParty);
+var numSparky = (numPizzas * numSlices) - (Math.floor(numEat) * numParty); // Calculates the number of slices for sparky
 
 console.log("Sparky got " + numSparky + " slices of pizza!");
 
@@ -54,7 +54,7 @@ var numWeeks = weeklyTotals.length;
 
 var shopTotal; // Total for all 5 weeks of shopping
 
-for(i=0;i<numWeeks;i++){
+for(i=0;i<numWeeks;i++){ // Loops through all indexes of the weeklyTotals array, adding them together in shopTotal
 	shopTotal += weeklyTotals[i];
 }
 
