@@ -76,7 +76,7 @@ var perTax = 7;
 var itemNoTax = (origPrice - ((20/100) * origPrice));
 var itemTaxed = (itemNoTax + ((7/100) * itemNoTax));
 
-
+console.log("Your " + itemDesc + " was originally $" + origPrice + ", but after a(n) " + perDisc + "% discount, it is now $" + itemNoTax + " without tax, and $" + itemTaxed + " with tax.");  
 
 
 
