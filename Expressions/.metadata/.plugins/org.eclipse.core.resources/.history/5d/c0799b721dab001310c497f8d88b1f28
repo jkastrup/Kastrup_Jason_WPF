@@ -8,7 +8,6 @@
  */
 
 var numAccnts = parseInt(prompt("How many contact accounts do you have? I.e. E-mail, Facebook, Twitter, etc."));
-var myName = prompt("What is your full Name?");
 var myAccounts= [];
 
 for(i=0;i<numAccnts;i++){
@@ -16,5 +15,3 @@ for(i=0;i<numAccnts;i++){
 	myAccounts[i] += prompt("What is your contact information for that site?");
 }
 
-console.log("Your e-mail signature below:");
-console.log(myAccounts[0]);
