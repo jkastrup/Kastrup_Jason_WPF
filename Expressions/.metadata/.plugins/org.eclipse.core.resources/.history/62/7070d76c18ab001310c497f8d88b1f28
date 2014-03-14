@@ -19,14 +19,14 @@ var avgKDA = 0;
 
 for(i=0;i<numGames;i++){
 
-	gameTotals[0] += parseInt(prompt("How many kills did you have in game " + i + " ?")); // Loop asking for and totaling kills, deaths, and assists
-	gameTotals[1] += parseInt(prompt("How many deaths did you have in game " + i + " ?"));
-	gameTotals[2] += parseInt(prompt("How many assists did you have in game " + i + " ?"));
+	gameTotals[0] += prompt("How many kills did you have in game " + i + " ?"); // Loop asking for and totaling kills, deaths, and assists
+	gameTotals[1] += prompt("How many deaths did you have in game " + i + " ?");
+	gameTotals[2] += prompt("How many assists did you have in game " + i + " ?");
 }
 
 avgKDA = (gameTotals[0] + gameTotals[2]) / gameTotals[1]; // Calculates the average KDA for the given amount of games
 
-console.log("With a total of " + gameTotals[0] + " kills, " + gameTotals[1] + " deaths, and " + gameTotals[2] + " assists, " + " You earned an average KDA of " + avgKDA + "!");
+console.log("With a total of " + gameTotals[0] + " kills, " + gameTotals[1] + " deaths, and " + gameTotals[2] + " assists, <br>" + " You earned an average KDA of " + avgKDA + "!");
 
 
 

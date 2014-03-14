@@ -26,7 +26,7 @@ for(i=0;i<numGames;i++){
 
 avgKDA = (gameTotals[0] + gameTotals[2]) / gameTotals[1]; // Calculates the average KDA for the given amount of games
 
-console.log("With a total of " + gameTotals[0] + " kills, " + gameTotals[1] + " deaths, and " + gameTotals[2] + " assists, " + " You earned an average KDA of " + avgKDA + "!");
+console.log("With a total of " + gameTotals[0] + " kills, " + gameTotals[1] + " deaths, and " + gameTotals[2] + " assists, <br>" + " You earned an average KDA of " + avgKDA + "!");
 
 
 
