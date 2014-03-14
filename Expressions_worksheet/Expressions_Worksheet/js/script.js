@@ -40,4 +40,4 @@ console.log("Each person ate " + numEat + " slices of pizza at the party.");
 
 var numSparky = (numPizzas * numSlices) - (Math.floor(numEat) * numParty);
 
-console.log(numSparky);
+console.log("Sparky got " + numSparky + " slices of pizza!");
