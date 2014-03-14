@@ -62,6 +62,38 @@ var avgCost = shopTotal / numWeeks;
 
 console.log("You have spent a total of $" + shopTotal + " on groceries over 5 weeks.  That is an average of $" + avgCost + " per week");
 
+/**
+ * Problem 5: Discounts
+ * Calculate the discounted price for an item. Create an expression that will calculate the discounted price,
+ * WITH and WITHOUT sales tax.
+ */
+
+var origPrice = 50;
+var perDisc = 20;
+var itemDesc = "Red Sweater Vest";
+var perTax = 7;
+
+var itemNoTax = (origPrice - ((20/100) * origPrice));
+var itemTaxed = (itemNoTax + ((7/100) * itemNoTax));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
