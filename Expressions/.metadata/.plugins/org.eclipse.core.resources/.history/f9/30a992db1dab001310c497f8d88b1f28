@@ -17,8 +17,4 @@ for(i=0;i<numAccnts;i++){
 }
 
 console.log("Your e-mail signature below:");
-console.log("");
-console.log(myName);
-for(i=0;i<numAccnts;i++){
-	console.log(myAccounts[i]);
-}
+console.log(myAccounts[0]);
