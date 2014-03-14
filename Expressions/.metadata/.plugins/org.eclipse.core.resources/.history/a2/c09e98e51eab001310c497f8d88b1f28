@@ -9,18 +9,18 @@
  * It then formats it to look clean, easily placed at the bottom of your emails.
  */
 
-var numAccnts = parseInt(prompt("How many contact accounts do you have? I.e. E-mail, Facebook, Twitter, etc.")); //Retrieves the number of social network accounts
-var myName = prompt("What is your full Name?"); // Retrieves the users full name
-var myAccounts= []; // Creates an array to store the information about each account
+var numAccnts = parseInt(prompt("How many contact accounts do you have? I.e. E-mail, Facebook, Twitter, etc."));
+var myName = prompt("What is your full Name?");
+var myAccounts= [];
 
-for(i=0;i<numAccnts;i++){ // Loop retrieving the name of the networking site and its relavent contact information
+for(i=0;i<numAccnts;i++){
 	myAccounts[i] = prompt("What is the name of the networking site?") + ": ";
 	myAccounts[i] += prompt("What is your contact information for that site?");
 }
 
-console.log("Your e-mail signature below:"); //Displays result descriptions
-console.log();		// Used for a natural spacer
-console.log(myName);// Displays the users name
-for(i=0;i<numAccnts;i++){	// Loop displaying each account on a separate line
+console.log("Your e-mail signature below:");
+console.log();
+console.log(myName);
+for(i=0;i<numAccnts;i++){
 	console.log(myAccounts[i]);
 }
