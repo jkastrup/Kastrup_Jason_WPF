@@ -8,10 +8,4 @@
  */
 
 var numAccnts = parseInt(prompt("How many contact accounts do you have? I.e. E-mail, Facebook, Twitter, etc."));
-var myAccounts= [];
-
-for(i=0;i<numAccnts;i++){
-	myAccounts[i] = prompt("What is the name of the networking site?") + ": ";
-	myAccounts[i] += prompt("What is your contact information for that site?");
-}
 
