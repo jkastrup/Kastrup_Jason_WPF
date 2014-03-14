@@ -37,3 +37,5 @@ console.log("Each person ate " + numEat + " slices of pizza at the party.");
  * Assuming the guests only eat WHOLE slice, how many slices will Sparky get?
  * 
  */
+
+var numSparky = (numPizzas * numSlices) - (Math.floor(numEat) * numParty);

@@ -11,4 +11,7 @@
 		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
 		<item value="org.radrails.rails:3.4.2.201308081726-7n-7Z7oKfjkqlemv"/>
 	</list>
+	<section name="com.aptana.ui.dialogs.ProjectContentsLocationArea">
+		<item value="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions" key="OUTSIDE_LOCATION"/>
+	</section>
 </section>

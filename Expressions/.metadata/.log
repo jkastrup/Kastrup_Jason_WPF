@@ -89,3 +89,25 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Jason/.e
 
 !ENTRY org.eclipse.core.net 1 0 2014-03-13 20:10:06.049
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-03-13 22:24:37.436
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-03-13 22:24:37.437
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-03-13 22:24:37.437
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-03-13 22:24:37.438
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2014-03-13 22:32:49.108 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Jason/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Jason/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-03-13 22:32:54.019
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

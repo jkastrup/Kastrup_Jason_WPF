@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
-<window height="813" width="1200" x="21" y="22">
+<window height="817" maximized="true" width="1412" x="14" y="53">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,7 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -28,10 +28,41 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html | Expressions_Wacky" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Wacky/index.html" title="index.html | Expressions_Wacky" tooltip="Expressions_Wacky/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Wacky/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js | Expressions_Wacky" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Wacky/js/script.js" title="script.js | Expressions_Wacky" tooltip="Expressions_Wacky/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Wacky/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1185" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="script.js" partName="script.js | Expressions_Industry" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Industry/js/script.js" title="script.js | Expressions_Industry" tooltip="Expressions_Industry/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Industry/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1413" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html | Expressions_Industry" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Industry/index.html" title="index.html | Expressions_Industry" tooltip="Expressions_Industry/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Industry/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="323" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html | Expressions_Personal" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Personal/index.html" title="index.html | Expressions_Personal" tooltip="Expressions_Personal/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Personal/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="script.js" partName="script.js" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Personal/js/script.js" title="script.js" tooltip="Expressions_Personal/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Expressions_Personal/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="452" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
@@ -52,9 +83,29 @@
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Expressions_Personal">
-<project name="Expressions_Personal">
+<project name="Expressions_Industry">
+<expanded>
+<element path="/Expressions_Industry/js"/>
+</expanded>
 <selection>
-<element path="/Expressions_Personal"/>
+<element path="/Expressions_Industry/css"/>
+</selection>
+</project>
+<project name="Expressions_Personal">
+<expanded>
+<element path="/Expressions_Personal/js"/>
+</expanded>
+<selection>
+<element path="/Expressions_Personal/js/script.js"/>
+</selection>
+</project>
+<project name="Expressions_Wacky">
+<expanded>
+<element path="/Expressions_Wacky/css"/>
+<element path="/Expressions_Wacky/js"/>
+</expanded>
+<selection>
+<element path="/Expressions_Wacky/index.html"/>
 </selection>
 </project>
 </viewState>
@@ -63,7 +114,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.js" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -103,13 +154,13 @@
 <new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="com.aptana.explorer.view"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.aptana.terminal.views.terminal"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.aptana.samples.ui.SamplesView"/>
 <view id="com.aptana.snippets.ui.views.SnippetsView"/>
+<view id="com.aptana.explorer.view"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -162,7 +213,167 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Expressions_Wacky/js/script.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Expressions_Industry/js/script.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Expressions_Industry/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Expressions_Personal/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Expressions_Personal/js/script.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Expressions_Industry/js/script.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Expressions_Wacky/js/script.js"/>
+</editors>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="912" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1016" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1032" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="825" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1137" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1152" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1211" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1227" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1228" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1244" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1482" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1337" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1353" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1366" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1382" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1416" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1466" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="index.html | Expressions_Industry" index="2">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="index.html | Expressions_Industry" index="2">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="680" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1167" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1167" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="922" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1026" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1165" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1102" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1165" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1162" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1165" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="813" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="813" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1257" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1257" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1360" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1308" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="1">
+<position info="not_deleted" x="1413" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Wacky" index="0">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+<item historyLabel="index.html | Expressions_Personal" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="script.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="script.js | Expressions_Industry" index="5">
+<position info="not_deleted" x="1413" y="0"/>
+</item>
+<item active="true" historyLabel="script.js | Expressions_Wacky" index="6">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -179,6 +390,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Expressions_Personal/js/script.js">
+<persistable path="/Expressions_Personal/js/script.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Expressions_Personal/index.html">
+<persistable path="/Expressions_Personal/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Expressions_Industry/index.html">
+<persistable path="/Expressions_Industry/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="styles.css" tooltip="Expressions_Industry/css/styles.css">
+<persistable path="/Expressions_Industry/css/styles.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Expressions_Industry/js/script.js">
+<persistable path="/Expressions_Industry/js/script.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Expressions_Wacky/js/script.js">
+<persistable path="/Expressions_Wacky/js/script.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Expressions_Wacky/index.html">
+<persistable path="/Expressions_Wacky/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="styles.css" tooltip="Expressions_Wacky/css/styles.css">
+<persistable path="/Expressions_Wacky/css/styles.css"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Expressions/Expressions_Personal/index.html">
 <persistable uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Expressions/Expressions_Personal/index.html"/>
 </file>
