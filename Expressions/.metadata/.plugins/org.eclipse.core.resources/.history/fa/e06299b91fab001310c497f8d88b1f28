@@ -5,8 +5,6 @@
  * 3/13/2014
  * 
  * I am currently in the middle of quitting smoking.  I am curious about how much money I spent in a year on cigarettes.
- * This calculates the yearly cost by starting with the amount of a pack of cigarettes cost, then how many are smoked in day.
- * Finally, it will obtain how many cigarettes are in each of your packs and will calculate the yearly cost.
  */
 
 var numPackCost = prompt("How much do your cigarettes cost?"); // The cost of a pack of cigarettes
