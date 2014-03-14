@@ -68,13 +68,13 @@ console.log("You have spent a total of $" + shopTotal + " on groceries over 5 we
  * WITH and WITHOUT sales tax.
  */
 
-var origPrice = 50;
-var perDisc = 20;
-var itemDesc = "Red Sweater Vest";
-var perTax = 7;
+var origPrice = 50; // Sets the original price of the item
+var perDisc = 20; // Sets the percent discount of the item
+var itemDesc = "Red Sweater Vest"; // Sets the item description
+var perTax = 7; // Sets the percent tax
 
-var itemNoTax = (origPrice - ((20/100) * origPrice));
-var itemTaxed = (itemNoTax + ((7/100) * itemNoTax));
+var itemNoTax = (origPrice - ((20/100) * origPrice)); // Calculates the item price with the percent discount, but no tax
+var itemTaxed = (itemNoTax + ((7/100) * itemNoTax)); // Calculates the item price with discount and tax
 
 console.log("Your " + itemDesc + " was originally $" + origPrice + ", but after a(n) " + perDisc + "% discount, it is now $" + itemNoTax + " without tax, and $" + itemTaxed + " with tax.");  
 
