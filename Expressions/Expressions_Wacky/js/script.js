@@ -1,18 +1,7 @@
 /**
  * @author Jason Kastrup
- * Expressions Assignment
- * Personal Calculations
+ * Expressions Assignment: Wacky
  * 3/13/2014
  * 
- * I am currently in the middle of quitting smoking.  I am curious about how much money I spent in a year on cigarettes.
+ * Something wacky about me 
  */
-
-var numPackCost = prompt("How much do your cigarettes cost?"); // The cost of a pack of cigarettes
-var numCigsSmoked = prompt("How many cigarettes do you smoke in a day?"); // The number of cigarettes smoked in a day
-var numCigsInPack = prompt("How many cigarettes are in one pack?"); // The number of cigarettes in a pack
-
-var numYearlyPacks = (numCigsSmoked * 365) / numCigsInPack;  // Calculates the number of packs smoked in year
-
-var numYearlyCost = numYearlyPacks * numPackCost; // Calculates the yearly total cost of smoking
-
-console.log("Smoking " + numCigsSmoked + " cigarettes a day, will cost $" + numYearlyCost + " a year!!");
