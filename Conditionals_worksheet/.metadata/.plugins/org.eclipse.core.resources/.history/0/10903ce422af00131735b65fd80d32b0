@@ -53,16 +53,10 @@ if(grade >= 95){
 	// 90% - 94% gives an A
 	console.log("You have a " + grade + "%, which means you have earned an A in the class!");
 }else if(grade >= 85){
-	// 85% - 89% gives a B+
-	console.log("You have a " + grade + "%, which means you have earned a B+ in the class!");
-}else if(grade >= 80){
-	// 80% - 84% gives a B
-	console.log("You have a " + grade + "%, which means you have earned a B in the class!");
-}else if(grade >= 76){
-	// 76% - 79% gives a C+
-	console.log("You have a " + grade + "%, which means you have earned a C+ in the class!");
-}else if(grade >= 73){
-	// 73% - 75% gives a C
+	//85% - 89% gives a B+
+	console.log("You have a " + grade + "%, which means you have earned an B+ in the class!");
+}else if(grade >= 85){
+	//80% - 84% gives a B+
 	console.log("You have a " + grade + "%, which means you have earned an B+ in the class!");
 }
 
