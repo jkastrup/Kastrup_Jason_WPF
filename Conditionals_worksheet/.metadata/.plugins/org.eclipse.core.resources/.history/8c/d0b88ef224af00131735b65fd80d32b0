@@ -82,9 +82,8 @@ if(grade >= 95){
 
 var carTires = [32,32,30,31]; // Array holding the PSI for each tire on the car
 
-// Ternary conditional statement checks that both front tires are the same AND both back tires are the same.
 (carTires[0] === carTires[1] && carTires[2] === carTires[3]) ? 
-	console.log("Your tires pass spec!") : console.log("Get your tires checked!"); // Console Printouts for TRUE and FALSE results of the condition
+	console.log("Your tires pass spec!") : console.log("Get your tires checked!");
 
 
 
