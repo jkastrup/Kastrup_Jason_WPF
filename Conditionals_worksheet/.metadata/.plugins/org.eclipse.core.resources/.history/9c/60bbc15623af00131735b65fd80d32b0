@@ -44,9 +44,8 @@ if(milesLeft >= 200){
  * Grades determined using Full Sail Grade Scale
  */
 
-var grade = 15; // The Student's grade as a percent
+var grade = 74; // The Student's grade as a percent
 
-// Conditional Statements determining what letter grade should be given according to the student's percent grade
 if(grade >= 95){
 	// 95% and up gives an A+
 	console.log("You have a " + grade + "%, which means you have earned an A+ in the class!");
