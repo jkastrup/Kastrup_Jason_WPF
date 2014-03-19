@@ -41,24 +41,11 @@ if(milesLeft >= 200){
 /**
  * Problem 3 (Group 2):  Letter Grade Calculator
  * Determine the appropriate letter grade from a percent using conditional statements.
- * Grades determined using Full Sail Grade Scale
  */
 
 var grade = 94; // The Student's grade as a percent
 
-if(grade >= 95){
-	// 95% and up gives an A+
-	console.log("You have a " + grade + "%, which means you have earned an A+ in the class!");
-}else if(grade >= 90){
-	// 90% - 94% gives an A
-	console.log("You have a " + grade + "%, which means you have earned an A in the class!");
-}else if(grade >= 85){
-	//85% - 89% gives a B+
-	console.log("You have a " + grade + "%, which means you have earned an B+ in the class!");
-}else if(grade >= 85){
-	//80% - 84% gives a B+
-	console.log("You have a " + grade + "%, which means you have earned an B+ in the class!");
-}
+
 
 
 
