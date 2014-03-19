@@ -4,13 +4,14 @@
  * 3/18/2014
  */
 
-var budget = 100;
-var iPhonePrice = 199.99;
-var wonLotto = true;
+var gpa = 48;
 
-// If the price of the phone is less than our budget AND if our paycheck is over 300
-if(iPhonePrice < budget || wonLotto){
-	console.log("We can buy the phone!");
+// If the gpa is over the min 2.0 score, the student may graduate
+/*if(GPA > 2.0){
+	console.log("You can graduate!");
 }else{
-	console.log("No phone for you!!");
+	console.log("GPA is too low!");
 }
+*/
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!!");
