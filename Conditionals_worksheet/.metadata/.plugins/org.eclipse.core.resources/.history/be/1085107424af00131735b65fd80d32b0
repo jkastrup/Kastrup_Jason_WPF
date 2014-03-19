@@ -73,17 +73,6 @@ if(grade >= 95){
 	console.log("You have a " + grade + "%, which means you have earned an F in the class!");
 }
 
-/**
- * Problem 4 (Group 3): Tire Pressure I
- * Create a conditional that would determine if the tires of a given car are up to spec.
- *		Front two tires must match each other
- * 		Back two tires must match each other
- */
-
-var carTires = [32,32,31,31]; // Array holding the PSI for each tire on the car
-
-(carTires[0] === carTires[1] && carTires[2] === carTires[3]) ? console.log("Your tires pass spec!") : console.log("Get your tires checked!");
-
 
 
 
