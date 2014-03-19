@@ -20,11 +20,11 @@ if(compWeight >= 250){
 }
 
 /**
- * Problem 2 (Group 1):  Last Chance for Gas!
+ * Problem 2:  Last Chance for Gas!
  * Determine whether or not the car will make it 200 miles without filling up for gas?
  */
 
-var carMPG = 50;  // Gas efficiency of the car in miles per gallon
+var carMPG = 35;  // Gas efficiency of the car in miles per gallon
 var perGasLeft = 50; // The percentage of gas left in the tank
 var tankSize = 10;  // The size of the gas tank in gallons
 
@@ -35,15 +35,11 @@ if(milesLeft >= 200){
 	console.log("Yes, you can make it without stopping for gas!");
 }else{
 	// If there is less than 200 miles left in the car
-	console.log("You only have " + ((perGasLeft / 100) * tankSize) + " gallons of gas in your tank, better get gas now while you can!");
+	console.log("You only have " + (perGasLeft * tankSize) + " gallons of gas in your tank, better get gas now while you can!");
 }
 
-/**
- * Problem 3 (Group 2):  Letter Grade Calculator
- * Determine the appropriate letter grade from a percent using conditional statements.
- */
 
-var 
+
 
 
 
