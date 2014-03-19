@@ -18,13 +18,3 @@ if(compWeight >= 250){
 	// Otherwise, competitor needs to gain weight
 	console.log("The competitor needs to gain some weight!");
 }
-
-/**
- * Problem 2:  Last Chance for Gas!
- * Determine whether or not they should stop for gas?
- */
-
-var carMPG = 35;  // Gas efficiency of the car in miles per gallon
-var perGasLeft = 50; // The percentage of gas left in the tank
-var tankSize = 10;  // The size of the gas tank in gallons
-
