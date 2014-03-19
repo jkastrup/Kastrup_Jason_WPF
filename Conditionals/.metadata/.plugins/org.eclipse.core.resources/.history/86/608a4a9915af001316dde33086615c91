@@ -4,7 +4,7 @@
  * 3/18/2014
  */
 
-var kidHeight = 52;
+var kidHeight = 50;
 var minHeight = 48;
 
 
@@ -13,7 +13,7 @@ var minHeight = 48;
 if(kidHeight > minHeight){
 	// Code is performed if condition is true
 	console.log("You can ride the coaster!");
-}else{
-	// Code performed if condition is false
+}
+if(kidHeight <= minHeight){
 	console.log("Sorry kid, you've got some growing to do first!");
 }
