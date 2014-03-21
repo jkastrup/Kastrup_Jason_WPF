@@ -27,13 +27,7 @@ if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to 
 	}
 	
 	homeOrOut = alert("Would you like to eat at home or go out? H/O");
-	if(homeOrOut === "H" || homeOrOut === "h" || 
-		homeOrOut === "O" || homeOrOut === "o"){	// Determines that the user entered in a proper response
-		
-			
-	}else{	// Displays if the user entered anything other than M,m,A,a,N,n
-		console.log("Sorry, please enter a valid response!");
-	}
+	
 	
 	
 	

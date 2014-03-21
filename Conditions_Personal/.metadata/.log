@@ -12,3 +12,20 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Jason/.e
 !ENTRY com.aptana.js.core 4 0 2014-03-20 21:07:43.974
 !MESSAGE (Build 3.4.2.201308081805) [ERROR]  Expected JSFunction node when applying documentation; however, the node type was 'com.aptana.js.core.parsing.ast.JSFalseNode' instead. Source =
 false
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-03-20 21:39:45.567
+!MESSAGE An internal error occurred during: "Firing branch added and pull event".
+!STACK 0
+java.lang.RuntimeException: Error changing from state: 32
+	at org.eclipse.core.internal.jobs.JobManager.changeState(JobManager.java:403)
+	at org.eclipse.core.internal.jobs.JobManager.doSchedule(JobManager.java:536)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1125)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:427)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:462)
+	at com.aptana.explorer.internal.ui.GitProjectView.refreshUI(GitProjectView.java:579)
+	at com.aptana.explorer.internal.ui.GitProjectView.handleBranchEvent(GitProjectView.java:610)
+	at com.aptana.explorer.internal.ui.GitProjectView.branchAdded(GitProjectView.java:599)
+	at com.aptana.git.core.model.GitRepository.fireBranchAddedEvent(GitRepository.java:1106)
+	at com.aptana.git.core.model.GitRepository.access$10(GitRepository.java:1097)
+	at com.aptana.git.core.model.GitRepository$4$4.run(GitRepository.java:597)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
