@@ -8,3 +8,7 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Jason/.e
 
 !ENTRY org.eclipse.core.net 1 0 2014-03-20 20:33:38.466
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.js.core 4 0 2014-03-20 21:07:43.974
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  Expected JSFunction node when applying documentation; however, the node type was 'com.aptana.js.core.parsing.ast.JSFalseNode' instead. Source =
+false
