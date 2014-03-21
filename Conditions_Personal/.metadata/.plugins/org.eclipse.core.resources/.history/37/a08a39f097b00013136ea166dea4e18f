@@ -20,13 +20,11 @@ if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to 
 	// Next condition, determines the approximate time of day
 	if(timeOfDay === "M" || timeOfDay === "m" ){	// Displays if it is Morning
 		
-	}else if(timeOfDay === "A" || timeOfDay === "a" ){	// Displays if it is Afternoon
+	}else if(){
 		
-	}else if(timeOfDay === "N" || timeOfDay === "n" ){	// Displays if it is Night
+	}else if(){
 		
-	}else{	// Displays if the user entered anything other than M,m,A,a,N,n
-		
-	}
+	}else{}
 	
 	
 }else if( isHungry === "N" || isHungry === "n"){	// Determines if the user said No to being hungry
