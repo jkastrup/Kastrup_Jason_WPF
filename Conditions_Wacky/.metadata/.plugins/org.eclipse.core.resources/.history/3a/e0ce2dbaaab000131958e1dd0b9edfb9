@@ -31,30 +31,24 @@ while(legitLim === false){
 	}
 }
 
-// Generates a random number from 0-limit
+
 numPick = Math.floor(Math.random()*(limit+1));
 
-// Core Game Code
-// Do...while loop asking the user for a guess, checks the guess, then asks again or finishes the game: Runs at least once
-// Also keeps track of the amount of guesses the user takes
 do{
-	// Asks the user for a guess
 	guess = parseInt(prompt("SkyNet wishes you to guess a number between 0 and " + limit));
-	
-	if(guess === numPick){	// Checks for the 'Win' condition
+	if(guess === numPick){
 		hasWon = true;
 		guessCount++;
-}else if(guess >= numPick){	// Checks if guess was higher than numPick
+	}else if(guess >= numPick){
 		alert("SkyNet has calculated that your 'guess' was too high...\nTry Again?");
 		guessCount++;
-}else if(guess <= numPick){	// Checks if guess was higher than numPick
+	}else if(guess <= numPick){
 		alert("SkyNet has calculated that your 'guess' was too low...\nTry Again?");
 		guessCount++;
 	}
 }
 while(hasWon === false);	// The condition to win the game must be met before it can end...
 
-// Displays the winning stats about the game
 console.log("You have outsmarted SkyNet...\n\nThe number was " + numPick + 
 	"\n\nBut it took you " + guessCount + " guesses...");
 

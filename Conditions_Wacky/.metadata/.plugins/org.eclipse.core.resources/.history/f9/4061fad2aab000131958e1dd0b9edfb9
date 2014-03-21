@@ -35,7 +35,7 @@ while(legitLim === false){
 numPick = Math.floor(Math.random()*(limit+1));
 
 // Core Game Code
-// Do...while loop asking the user for a guess, checks the guess, then asks again or finishes the game: Runs at least once
+// Do...while loop asking the user for a guess, checks the guess, then asks again or finishes the game
 // Also keeps track of the amount of guesses the user takes
 do{
 	// Asks the user for a guess
@@ -54,7 +54,6 @@ do{
 }
 while(hasWon === false);	// The condition to win the game must be met before it can end...
 
-// Displays the winning stats about the game
 console.log("You have outsmarted SkyNet...\n\nThe number was " + numPick + 
 	"\n\nBut it took you " + guessCount + " guesses...");
 
