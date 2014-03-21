@@ -19,7 +19,3 @@ limit = 1 + parseInt(prompt("SkyNet wants to know the number limit for this game
 
 numPick = Math.floor(Math.random()*limit);
 
-do{
-	
-}
-while(hasWon === false);	// The condition to win the game must be met before it can end...

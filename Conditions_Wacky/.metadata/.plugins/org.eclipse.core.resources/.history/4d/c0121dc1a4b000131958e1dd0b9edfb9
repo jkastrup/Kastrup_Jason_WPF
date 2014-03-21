@@ -15,11 +15,5 @@ var guessCount = 0;
 
 alert("SkyNet would like you to play a game... \n\nThe game is 'Pick a Number'");
 
-limit = 1 + parseInt(prompt("SkyNet wants to know the number limit for this game... \n\n10? 100? 10,000?\nPlease enter a limit..."));
+prompt("SkyNet wants to know the number limit for this game... \n\n10? 100? 10,000?\nPlease enter a limit...");
 
-numPick = Math.floor(Math.random()*limit);
-
-do{
-	
-}
-while(hasWon === false);	// The condition to win the game must be met before it can end...
