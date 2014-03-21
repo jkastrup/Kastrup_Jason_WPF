@@ -9,7 +9,6 @@
 
 var hasWon = false;
 var limit = 0;
-var legitLim;
 var numPick;
 var guess;
 var guessCount = 0;
@@ -18,15 +17,11 @@ alert("SkyNet would like you to play a game... \n\nThe game is 'Pick a Number'")
 
 limit = parseInt(prompt("SkyNet wants to know the number limit for this game... \n\n10? 100? 10,000?\nPlease enter a limit..."));
 
-legitLim = !isNaN(parseFloat(limit)) && isFinite(limit);
-
-while(legitLim === false){
-	limit = parseInt(prompt("SkyNet cannot use that...\n\n Please enter a valid whole number for a limit"));
-	if(!isNaN(parseFloat(limit)) && isFinite(limit)){
-		legitLim = true;
+if(limit === Number.NaN){
+	while(limit === Number.NaN){
+			limit = parseInt(prompt("SkyNet cannot use that...\n\n Please enter a valid whole number for a limit"));
 	}
 }
-
 
 numPick = Math.floor(Math.random()*(limit+1));
 

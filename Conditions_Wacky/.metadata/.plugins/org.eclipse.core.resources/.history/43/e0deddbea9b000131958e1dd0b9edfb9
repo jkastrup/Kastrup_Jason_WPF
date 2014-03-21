@@ -22,9 +22,6 @@ legitLim = !isNaN(parseFloat(limit)) && isFinite(limit);
 
 while(legitLim === false){
 	limit = parseInt(prompt("SkyNet cannot use that...\n\n Please enter a valid whole number for a limit"));
-	if(!isNaN(parseFloat(limit)) && isFinite(limit)){
-		legitLim = true;
-	}
 }
 
 
