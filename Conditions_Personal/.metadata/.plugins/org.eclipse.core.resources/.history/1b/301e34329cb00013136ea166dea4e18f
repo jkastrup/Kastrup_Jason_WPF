@@ -39,7 +39,6 @@ if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to 
 				console.log("You should order a pizza!");
 			}else if((timeOfDay === "N" || timeOfDay === "n") && (homeOrOut === "O" || homeOrOut === "o")){ // Determines Night and Out
 				console.log("You should eat at White Castle!");
-			}
 	
 		}else{	// Displays if the user entered anything other than M,m,A,a,N,n
 			console.log("Sorry, please enter a valid response!");
