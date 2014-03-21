@@ -11,6 +11,4 @@ var prices = [15,40, 50];	// Monthly price in dollars for Phone, Cable, and Inte
 var totalP = 0;				// Total monthly price
 var taxP = .07;				// Tax percent
 
-alert("Kastrup Cable has 3 available services!\n1)Phone\t\t$" + prices[0] + 
-	"\n2)Cable\t\t$" + prices[1] + 
-	"\n3)Internet\t\t$" + prices[2]);
+alert("Kastrup Cable has 3 available services!\n1)Phone\t$" + prices[0] + "\n2)Cable\t$" + prices[1] + "\n3)Internet\t$" + prices[2]);
