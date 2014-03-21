@@ -20,16 +20,7 @@ limit = parseInt(prompt("SkyNet wants to know the number limit for this game... 
 numPick = Math.floor(Math.random()*(limit+1));
 
 do{
-	guess = parseInt(prompt("SkyNet wishes you to guess a number between 0 and " + limit));
-	if(guess === numPick){
-		hasWon = true;
-		guessCount++;
-	}else if(guess >= numPick){
-		alert("SkyNet has calculated that your 'guess' was too high...\nTry Again?");
-		guessCount++;
-	}else if(guess <= numPick){
-		alert("SkyNet has calculated that your 'guess' was too low...\nTry Again?");
-		guessCount++;
-	}
+	guess = prompt("SkyNet wishes you to guess a number between 0 and " + limit);
+	
 }
 while(hasWon === false);	// The condition to win the game must be met before it can end...
