@@ -33,16 +33,3 @@ do{
 	}
 }
 while(hasWon === false);	// The condition to win the game must be met before it can end...
-
-console.log("You have outsmarted SkyNet...\n\nThe number was " + numPick + 
-	"\n\nBut it took you " + guessCount + " guesses...");
-
-
-
-
-
-
-
-
-
-
