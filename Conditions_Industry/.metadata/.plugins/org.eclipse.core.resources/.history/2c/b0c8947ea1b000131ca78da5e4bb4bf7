@@ -21,7 +21,7 @@ alert("Kastrup Cable has 3 available services!\n1)Phone\t\t$" + prices[0] +
 
 (prompt("Would you like our Internet service? \nType '1' for 'Yes'") > 0) ? services[2] = 1 : services[2] = 0;
 
-for(i=0;i<services.length;i++){
+for(i=0;i<services.length();i++){
 	if(services[i] === 1){
 		totalP += prices[i];
 	}

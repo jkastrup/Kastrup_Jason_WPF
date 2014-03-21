@@ -1,0 +1,16 @@
+/**
+ * @author Jason Kastrup
+ * Conditions Assignment: Industry
+ * 3/20/2014
+ * 
+ * If only working with ISP's could be this simple!
+ */
+
+var services = [0,0,0];	// Binary array for each service:  0 off, 1 on, for Phone Cable, and Internet in that order
+var prices = [15,40, 50];	// Monthly price in dollars for Phone, Cable, and Internet in that order
+var totalP = 0;				// Total monthly price
+var taxP = .07;				// Tax percent
+
+alert("Kastrup Cable has 3 available services!\n1)Phone\t\t$" + prices[0] + 
+	"\n2)Cable\t\t$" + prices[1] + 
+	"\n3)Internet\t\t$" + prices[2]);
