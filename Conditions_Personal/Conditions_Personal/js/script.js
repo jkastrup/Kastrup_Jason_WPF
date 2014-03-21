@@ -12,16 +12,23 @@ var inOrOut;
 
 isHungry = alert("Are you hungry? Y/N");
 
-if( isHungry === "Y" || isHungry === "y" || isHungry === "Yes" || isHungry === "yes"){
+//Starting condition, the user must be hungry in order to eat
+if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to being hungry
 	
 	timeOfDay = alert("Is it morning, afternoon, or night? M/A/N");
 	
-	if(){
+	// Next condition, determines the approximate time of day
+	if(timeOfDay === "M" || timeOfDay === "m" ){	// Displays if it is Morning
 		
-	}
+	}else if(){
+		
+	}else if(){
+		
+	}else{}
 	
-}else if( isHungry === "N" || isHungry === "n" || isHungry === "No" || isHungry === "no"){
+	
+}else if( isHungry === "N" || isHungry === "n"){	// Determines if the user said No to being hungry
 	
 }else{
-	console.log("Sorry, please enter a valid response!");
+	console.log("Sorry, please enter a valid response!");	// Will display if the user entered anything other than Y,y,N,n
 }

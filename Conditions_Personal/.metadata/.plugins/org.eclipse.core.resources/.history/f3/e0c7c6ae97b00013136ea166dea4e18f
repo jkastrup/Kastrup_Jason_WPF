@@ -1,0 +1,32 @@
+/**
+ * @author Jason Kastrup
+ * Conditions Assignment:  Personal
+ * 3/20/2014
+ * 
+ * What should I eat right now?
+ */
+
+var isHungry;
+var timeOfDay;
+var inOrOut;
+
+isHungry = alert("Are you hungry? Y/N");
+
+if( isHungry === "Y" || isHungry === "y"){
+	
+	timeOfDay = alert("Is it morning, afternoon, or night? M/A/N");
+	
+	if(timeOfDay === "M" || timeOfDay === "m" ){
+		
+	}else if(){
+		
+	}else if(){
+		
+	}else{}
+	
+	
+}else if( isHungry === "N" || isHungry === "n"){
+	
+}else{
+	console.log("Sorry, please enter a valid response!");
+}
