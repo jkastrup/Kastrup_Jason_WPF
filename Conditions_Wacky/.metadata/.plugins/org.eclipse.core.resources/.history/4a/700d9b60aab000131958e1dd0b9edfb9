@@ -14,19 +14,15 @@ var numPick;		// Will be a randomly generated number from 0 - limit
 var guess;			// The user's guess
 var guessCount = 0;	// Keeps track of the amount of guesses for the user
 
-// Tells the user what to expect
-alert("SkyNet would like you to play a game... \n\nThe game is 'Pick a Number'");	
+alert("SkyNet would like you to play a game... \n\nThe game is 'Pick a Number'");
 
-// Asks the user for a limit for the game
 limit = parseInt(prompt("SkyNet wants to know the number limit for this game... \n\n10? 100? 10,000?\nPlease enter a limit..."));
 
-// Checks to make sure the input is a finite number: returns true or false
 legitLim = !isNaN(parseFloat(limit)) && isFinite(limit);
 
-// If the limit input is false, program will continue to ask for valid input.  If true already, loop will be skipped
 while(legitLim === false){
-	limit = parseInt(prompt("SkyNet cannot use that...\n\n Please enter a valid whole number for a limit"));	// Asks for a new limit
-	if(!isNaN(parseFloat(limit)) && isFinite(limit)){	// If the new limit is valid, sets legitLim to true
+	limit = parseInt(prompt("SkyNet cannot use that...\n\n Please enter a valid whole number for a limit"));
+	if(!isNaN(parseFloat(limit)) && isFinite(limit)){
 		legitLim = true;
 	}
 }
