@@ -7,12 +7,12 @@
  * The user may pick the range of numbers
  */
 
-var hasWon = false;	// Keeps track if the user has guessed the right number
-var limit = 0;		// Keeps track of the limit of the game
-var legitLim;		// Boolean variable used to determine that the input is valid
-var numPick;		// Will be a randomly generated number from 0 - limit
-var guess;			// The user's guess
-var guessCount = 0;	// Keeps track of the amount of guesses for the user
+var hasWon = false;
+var limit = 0;
+var legitLim;
+var numPick;
+var guess;
+var guessCount = 0;
 
 alert("SkyNet would like you to play a game... \n\nThe game is 'Pick a Number'");
 
