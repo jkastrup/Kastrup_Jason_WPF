@@ -8,7 +8,7 @@
 
 var isHungry;
 var timeOfDay;
-var homeOrOut;
+var inOrOut;
 
 isHungry = alert("Are you hungry? Y/N");
 
@@ -18,17 +18,15 @@ if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to 
 	timeOfDay = alert("Is it morning, afternoon, or night? M/A/N");
 	
 	// Next condition, determines the approximate time of day
-	if(timeOfDay === "M" || timeOfDay === "m" || 
-		timeOfDay === "A" || timeOfDay === "a" || 
-		timeOfDay === "N" || timeOfDay === "n"){	// Determines that the user entered in a proper response
-			
+	if(timeOfDay === "M" || timeOfDay === "m" ){	// Displays if it is Morning
+		
+	}else if(timeOfDay === "A" || timeOfDay === "a" ){	// Displays if it is Afternoon
+		
+	}else if(timeOfDay === "N" || timeOfDay === "n" ){	// Displays if it is Night
+		
 	}else{	// Displays if the user entered anything other than M,m,A,a,N,n
-		console.log("Sorry, please enter a valid response!");
+		
 	}
-	
-	homeOrOut = alert("Would you like to eat at home or go out? H/O");
-	
-	
 	
 	
 }else if( isHungry === "N" || isHungry === "n"){	// Determines if the user said No to being hungry
