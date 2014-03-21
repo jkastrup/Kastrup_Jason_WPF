@@ -10,7 +10,7 @@ var isHungry;
 var timeOfDay;
 var homeOrOut;
 
-isHungry = prompt("Are you hungry? Y/N");
+isHungry = alert("Are you hungry? Y/N");
 
 //Starting condition, the user must be hungry in order to eat
 if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to being hungry
@@ -28,7 +28,7 @@ if( isHungry === "Y" || isHungry === "y"){	// Determines if the usersaid Yes to 
 		homeOrOut === "O" || homeOrOut === "o"){	// Determines that the user entered in a proper response
 			
 			if((timeOfDay === "M" || timeOfDay === "m") && (homeOrOut === "H" || homeOrOut === "h")){ // Determines Morning and Home
-				console.log("You should make waffles!");	
+				cconsole.log("You should make waffles!");	
 			}else if((timeOfDay === "M" || timeOfDay === "m") && (homeOrOut === "O" || homeOrOut === "o")){ // Determines Morning and Out
 				console.log("You should eat at Tim Horton's!");
 			}else if((timeOfDay === "A" || timeOfDay === "a") && (homeOrOut === "H" || homeOrOut === "h")){ // Determines Afternoon and Home
