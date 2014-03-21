@@ -6,9 +6,9 @@
  * What should I eat right now?
  */
 
-var isHungry;	// Stores if the user is hungry or not
-var timeOfDay;	// Stores the approximate time of day for the user
-var homeOrOut;	// Stores if the user wants to stay in or go out
+var isHungry;
+var timeOfDay;
+var homeOrOut;
 
 isHungry = prompt("Are you hungry? Y/N");
 
