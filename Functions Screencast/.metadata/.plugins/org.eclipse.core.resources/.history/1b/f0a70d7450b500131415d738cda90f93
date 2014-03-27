@@ -1,7 +1,7 @@
 /**
  * @author Jason Kastrup
  * Screencast Functions
- * Functions - Variable Scope
+ * Functions - Function Execution
  */
 
 var width = 5;

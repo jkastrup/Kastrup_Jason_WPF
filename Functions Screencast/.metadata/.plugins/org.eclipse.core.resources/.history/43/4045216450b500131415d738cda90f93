@@ -1,10 +1,8 @@
 /**
  * @author Jason Kastrup
  * Screencast Functions
- * Functions - Variable Scope
+ * Functions - Function Execution
  */
-
-var width = 5;
 
 function outpMsg(){
 	console.log("Hello World");
@@ -18,4 +16,6 @@ function calcArea(){
 }
 
 calcArea();
-console.log(width);
+calcArea();
+calcArea();
+
