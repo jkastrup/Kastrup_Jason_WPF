@@ -14,12 +14,12 @@ var newWeight;	// Stores the users theoretical weight on other celestial bodies
 weight = parseInt(prompt("Please enter your 'Earth' weight in lbs"));	// Grabs input from user
 planetDest = parseInt(prompt("You may visit the following celestial bodies. Enter the index number following the planet you wish to go to.\n\nSun\t\t1\nMercury\t2\nVenus\t3\nEarth\t4\nMoon\t5\nMars\t\t6\t\nJupiter\t7\nSaturn\t8\nUranus\t9\nNeptune\t10"));
 
-newWeight = newPlanetWeight(weight, planetDest);	// Calls the function 'newPlanetWeight'
+newWeight = newPlanetWeight(weight, planetDest);
 
-console.log("Your weight on " + planets[planetDest-1] + " is " + newWeight + " pounds.");	// Outputs and formats the result
+console.log("Your weight on " + planets[planetDest-1] + " is " + newWeight + " pounds.");
 
 // Function created to calculate weight based on the input of the user
 function newPlanetWeight(earthWeight, planetNum){
-	var planetWeight = earthWeight * gravFactor[planetNum - 1];	// Calculates new weight based on gravitational factors
-	return planetWeight;	// returns the new weight
+	var planetWeight = earthWeight * planets[planetNum-1];
+	return planetWeight;
 }
