@@ -1,0 +1,11 @@
+/**
+ * @author Jason Kastrup
+ * Functions Assignments: Personal, Industrial, and Wacky
+ * 3/27/14
+ */
+
+/**
+ * Functions Assignment: Wacky
+ */
+var gravFactor = [27.9, .38, .91, 1, .17, .38, 2.54, 1.08, .91, 1.19];
+
