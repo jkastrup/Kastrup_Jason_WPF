@@ -22,9 +22,6 @@ function calcCircum(radius){
 
 var vicWeight = 125;	// Victims Weight in pounds
 
-var totalStings = willItKill(vicWeight);
-console.log("Problem 2:\nIt takes " + totalStings + " bee stings to kill this animal.");
-
 function willItKill(weight){
 	var numStings = weight * 8.666666667;	// Calculates number of bee stings based on the number of stings per pound
 	return numStings;	// Returns the total number of stings 

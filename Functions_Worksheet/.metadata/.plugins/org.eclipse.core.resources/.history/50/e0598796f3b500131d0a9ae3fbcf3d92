@@ -11,7 +11,6 @@ var rad = 5;	// Radius of the circle
 var circumference = calcCircum(rad);
 
 console.log("Problem 1:\nThe circumference of the circle is " + circumference);
-console.log();	// Formatting - Enters completely blank line
 
 function calcCircum(radius){
 	var circum = 2 * radius * 3.14;	//calculates circumference based on equation Pi*Diameter
@@ -21,9 +20,6 @@ function calcCircum(radius){
 // Problem 2 - Stung!
 
 var vicWeight = 125;	// Victims Weight in pounds
-
-var totalStings = willItKill(vicWeight);
-console.log("Problem 2:\nIt takes " + totalStings + " bee stings to kill this animal.");
 
 function willItKill(weight){
 	var numStings = weight * 8.666666667;	// Calculates number of bee stings based on the number of stings per pound
