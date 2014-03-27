@@ -21,7 +21,7 @@ calcArea();
 console.log(width);
 */
 
-// Functions - Returning Values
+
 var total = calcArea(30,20);
 
 function calcArea(w, h){	// w = width, h = height
