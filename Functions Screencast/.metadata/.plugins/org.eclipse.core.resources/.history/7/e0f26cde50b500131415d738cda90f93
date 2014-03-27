@@ -19,38 +19,8 @@ function calcArea(){
 
 calcArea();
 console.log(width);
-
-
-
-calcArea(30,20);
-
-function calcArea(w, h){	// w = width, h = height
-	var area = w * h;
-	console.log(area);
-}
 */
 
-function dogYears(age){	// parameters	
-	var dogYears = age * 7;
-	console.log("Sparky is " + dogYears + " years old.");
+function calcArea(w, h){	// w = width, h = height
+	
 }
-
-var age1 = 4;
-dogYears(age1);	// Arguments
-dogYears(5);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
