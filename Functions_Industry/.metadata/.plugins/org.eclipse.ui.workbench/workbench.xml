@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="24" version="2.0">
 <workbenchAdvisor/>
-<window height="812" width="1200" x="138" y="35">
+<window height="813" width="1200" x="21" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -23,7 +23,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1395960610223" focus="true" label="Workspace - Web">
+<page aggregateWorkingSetId="Aggregate for window 1395964424475" focus="true" label="Workspace - Web">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -36,16 +36,16 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.css" name="styles.css" partName="styles.css" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/css/styles.css" title="styles.css" tooltip="Functions_Personal/css/styles.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/css/styles.css"/>
+<editor id="com.aptana.editor.css" name="styles.css" partName="styles.css" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/css/styles.css" title="styles.css" tooltip="Functions_Industry/css/styles.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Industry/css/styles.css"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/js/script.js" title="script.js" tooltip="Functions_Personal/js/script.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/js/script.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="107" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js" title="script.js" tooltip="Functions_Industry/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Industry/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="70" selectionTopPixel="0"/>
 </editor>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/index.html" title="index.html" tooltip="Functions_Personal/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/index.html"/>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html" title="index.html" tooltip="Functions_Industry/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Industry/index.html"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="363" selectionTopPixel="0"/>
 </editor>
 </editors>
@@ -70,11 +70,14 @@
 <viewState/>
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Functions_Personal">
-<project name="Functions_Personal">&#x0A;<expanded>&#x0A;<element path="/Functions_Personal/css"/>
-<element path="/Functions_Personal/js"/>
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Functions_Industry">
+<project name="Functions_Industry">
+<expanded>
+<element path="/Functions_Industry/css"/>
+<element path="/Functions_Industry/js"/>
 </expanded>
-<selection>&#x0A;<element path="/Functions_Personal/index.html"/>
+<selection>
+<element path="/Functions_Industry/index.html"/>
 </selection>
 </project>
 </viewState>
@@ -153,7 +156,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="left"/>
-<info folder="true" part="terminalArea" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="terminalArea" ratio="0.74900925" ratioLeft="567" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.aptana.terminal.views.terminal" label="Terminal"/>
@@ -167,7 +170,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a3a52c" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="4" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@16e1ccd" ratio="0.74900925" ratioLeft="567" ratioRight="190" relationship="4" relative="left">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
@@ -186,10 +189,9 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Functions_Personal/css/styles.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Functions_Personal/js/script.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Personal/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Personal/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Functions_Industry/css/styles.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Functions_Industry/js/script.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Industry/index.html"/>
 </editors>
 <item historyLabel="styles.css" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -207,55 +209,13 @@
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="559" y="0"/>
+<position/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="357" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="366" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="412" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="422" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="433" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="716" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="741" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="742" y="0"/>
-</item>
-<item historyLabel="index.html" index="3">
-<position info="not_deleted" x="363" y="0"/>
+<position info="not_deleted" x="75" y="0"/>
 </item>
 <item active="true" historyLabel="script.js" index="1">
-<position info="not_deleted" x="63" y="0"/>
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -274,14 +234,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Functions_Personal/index.html">
-<persistable path="/Functions_Personal/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Functions_Industry/index.html">
+<persistable path="/Functions_Industry/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Functions_Personal/js/script.js">
-<persistable path="/Functions_Personal/js/script.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Functions_Industry/js/script.js">
+<persistable path="/Functions_Industry/js/script.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="styles.css" tooltip="Functions_Personal/css/styles.css">
-<persistable path="/Functions_Personal/css/styles.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="styles.css" tooltip="Functions_Industry/css/styles.css">
+<persistable path="/Functions_Industry/css/styles.css"/>
 </file>
 </mruList>
 </workbench>
