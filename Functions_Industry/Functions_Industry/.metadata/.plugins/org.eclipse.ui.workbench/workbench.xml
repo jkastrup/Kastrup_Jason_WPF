@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="24" version="2.0">
 <workbenchAdvisor/>
-<window height="812" width="1200" x="406" y="30">
+<window height="813" width="1200" x="212" y="156">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,13 +17,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1395960610223" focus="true" label="Workspace - Web">
+<page aggregateWorkingSetId="Aggregate for window 1395967937597" focus="true" label="Workspace - Web">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -31,22 +30,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.css" name="styles.css" partName="styles.css" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/css/styles.css" title="styles.css" tooltip="Functions_Personal/css/styles.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/css/styles.css"/>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/js/script.js" title="script.js" tooltip="Functions_Personal/js/script.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/js/script.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="687" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Personal/Functions_Personal/index.html" title="index.html" tooltip="Functions_Personal/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functions_Personal/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="363" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="script.js" partName="script.js" title="script.js" tooltip="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="303" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -70,14 +64,7 @@
 <viewState/>
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Functions_Personal">
-<project name="Functions_Personal">&#x0A;<expanded>&#x0A;<element path="/Functions_Personal/css"/>
-<element path="/Functions_Personal/js"/>
-</expanded>
-<selection>&#x0A;<element path="/Functions_Personal/index.html"/>
-</selection>
-</project>
-</viewState>
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled=""/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -153,7 +140,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="left"/>
-<info folder="true" part="terminalArea" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="terminalArea" ratio="0.74900925" ratioLeft="567" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.aptana.terminal.views.terminal" label="Terminal"/>
@@ -167,7 +154,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a3a52c" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="4" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d8c046" ratio="0.74900925" ratioLeft="567" ratioRight="190" relationship="4" relative="left">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
@@ -186,119 +173,41 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Functions_Personal/css/styles.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Functions_Personal/js/script.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Personal/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Personal/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Functions_Personal/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js"/>
 </editors>
-<item historyLabel="styles.css" index="0">
+<item historyLabel="index.html" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="2">
-<position info="not_deleted" x="363" y="0"/>
+<item historyLabel="script.js" index="1">
+<position info="not_deleted" x="304" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="304" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="559" y="0"/>
+<position info="not_deleted" x="304" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="346" y="0"/>
+<position info="not_deleted" x="304" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<position/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="366" y="0"/>
+<position/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="375" y="0"/>
+<position info="not_deleted" x="253" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="383" y="0"/>
+<position info="not_deleted" x="254" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position info="not_deleted" x="391" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="412" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="422" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="433" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="716" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="741" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="742" y="0"/>
-</item>
-<item historyLabel="index.html" index="3">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="63" y="0"/>
-</item>
-<item historyLabel="index.html" index="4">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="785" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="1320" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="757" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="455" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="456" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="457" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="519" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="520" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="583" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="584" y="0"/>
-</item>
-<item historyLabel="script.js" index="1">
-<position info="not_deleted" x="585" y="0"/>
+<position info="not_deleted" x="255" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
 <position/>
@@ -310,25 +219,16 @@
 <position/>
 </item>
 <item historyLabel="script.js" index="1">
-<position/>
+<position info="not_deleted" x="332" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position/>
+<position info="not_deleted" x="364" y="0"/>
 </item>
 <item historyLabel="script.js" index="1">
-<position/>
-</item>
-<item historyLabel="script.js" index="1">
-<position/>
-</item>
-<item historyLabel="script.js" index="1">
-<position/>
-</item>
-<item historyLabel="script.js" index="1">
-<position/>
+<position info="not_deleted" x="373" y="0"/>
 </item>
 <item active="true" historyLabel="script.js" index="1">
-<position/>
+<position info="not_deleted" x="299" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -347,14 +247,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="Functions_Personal/index.html">
-<persistable path="/Functions_Personal/index.html"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js">
+<persistable uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/js/script.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="Functions_Personal/js/script.js">
-<persistable path="/Functions_Personal/js/script.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="styles.css" tooltip="Functions_Personal/css/styles.css">
-<persistable path="/Functions_Personal/css/styles.css"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="/Users/Jason/Desktop/WPF Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html">
+<persistable uri="file:/Users/Jason/Desktop/WPF%20Repository/Kastrup_Jason_WPF/Functions_Industry/Functions_Industry/index.html"/>
 </file>
 </mruList>
 </workbench>
